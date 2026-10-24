@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KI-gestützte Softwareentwicklung für den Mittelstand</title>
+<meta name="description" content="Kreative Softwareprojekte für kleine und mittelständische Unternehmen – realisiert mit KI in einer abgesicherten, datenschutzbewussten Umgebung.">
+<style>
+  :root {
+    --bg: #fafaf7;
+    --fg: #1c1c1e;
+    --muted: #5f6368;
+    --card: #ffffff;
+    --line: #e4e4de;
+    --accent: #3b5bdb;
+    --accent-fg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121316;
+      --fg: #ececee;
+      --muted: #a0a4ab;
+      --card: #1b1d22;
+      --line: #2a2d34;
+      --accent: #7c93ff;
+      --accent-fg: #101114;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+  header.hero { padding: 72px 0 48px; }
+  .eyebrow { color: var(--accent); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; font-size: .8rem; }
+  h1 { font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.15; margin: 12px 0 16px; }
+  .lead { font-size: 1.15rem; color: var(--muted); max-width: 640px; }
+  .btn {
+    display: inline-block; margin-top: 24px; padding: 12px 22px;
+    background: var(--accent); color: var(--accent-fg);
+    border-radius: 8px; text-decoration: none; font-weight: 600;
+  }
+  section { padding: 40px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 1.6rem; margin: 0 0 20px; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+  .card h3 { margin: 0 0 8px; font-size: 1.1rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .98rem; }
+  ul.checks { padding: 0; list-style: none; margin: 0; }
+  ul.checks li { padding-left: 28px; position: relative; margin-bottom: 10px; }
+  ul.checks li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+  footer { padding: 32px 0 56px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Softwareentwicklung mit KI</div>
+    <h1>Ihre Idee, kreativ umgesetzt – schnell, sicher, mit KI.</h1>
+    <p class="lead">
+      Ich realisiere Softwareprojekte für kleine und mittelständische Unternehmen jeder Branche.
+      Künstliche Intelligenz beschleunigt die Umsetzung, Kreativität und Verantwortung bleiben bei mir.
+    </p>
+    <a class="btn" href="#kontakt">Projekt besprechen</a>
+  </header>
+
+  <section id="leistungen">
+    <h2>Was ich für Sie tue</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Individuelle Lösungen</h3>
+        <p>Webseiten, interne Tools, Automatisierungen und Schnittstellen – zugeschnitten auf Ihren Betrieb statt von der Stange.</p>
+      </div>
+      <div class="card">
+        <h3>KI als Beschleuniger</h3>
+        <p>Mit KI-Unterstützung entstehen Prototypen und fertige Projekte in kürzerer Zeit und zu planbaren Kosten.</p>
+      </div>
+      <div class="card">
+        <h3>Kreativer Blick</h3>
+        <p>Ich denke Probleme neu und finde Wege, die über das Naheliegende hinausgehen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sicherheit">
+    <h2>Sicherheit &amp; Datenschutz</h2>
+    <p>Die KI arbeitet bei mir nicht frei im Netz, sondern in einer abgeschotteten Umgebung:</p>
+    <ul class="checks">
+      <li><strong>Isolierte Sandbox:</strong> Die KI läuft in einer gekapselten Umgebung, getrennt von Ihren Produktivsystemen.</li>
+      <li><strong>Firewall:</strong> Ausgehende Verbindungen sind eingeschränkt und werden nur gezielt freigegeben.</li>
+      <li><strong>Strenge Kontrolle personenbezogener Daten:</strong> Zugriff auf personenbezogene Daten gibt es nur, wenn es nötig ist – und unter meiner Aufsicht.</li>
+      <li><strong>DSGVO-bewusstes Vorgehen:</strong> Datensparsamkeit, klare Absprachen und auf Wunsch ein Vertrag zur Auftragsverarbeitung.</li>
+    </ul>
+  </section>
+
+  <section id="ablauf">
+    <h2>So läuft ein Projekt ab</h2>
+    <div class="grid">
+      <div class="card"><h3>1. Kennenlernen</h3><p>Kostenloses Erstgespräch: Ziel, Umfang, Rahmenbedingungen.</p></div>
+      <div class="card"><h3>2. Konzept</h3><p>Ich erstelle ein Angebot mit klarem Leistungsumfang.</p></div>
+      <div class="card"><h3>3. Umsetzung</h3><p>Entwicklung in kurzen Schritten, Sie sehen laufend Ergebnisse.</p></div>
+      <div class="card"><h3>4. Übergabe</h3><p>Dokumentation, Einweisung und Support nach dem Start.</p></div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Haben Sie ein Projekt im Kopf? Schreiben Sie mir kurz, worum es geht.</p>
+    <a class="btn" href="mailto:andreasgoldstein@posteo.de">andreasgoldstein@posteo.de</a>
+  </section>
+
+  <footer>
+    © 2026 Andreas Goldstein · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a>
+  </footer>
+
+</div>
+</body>
+</html>
