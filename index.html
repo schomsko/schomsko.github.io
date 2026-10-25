@@ -65,6 +65,9 @@
     background: var(--accent); color: var(--accent-fg);
     border-radius: 8px; text-decoration: none; font-weight: 600;
   }
+  .btn.ghost { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+  .actions .btn { margin-top: 0; }
   section { padding: 40px 0; border-top: 1px solid var(--line); }
   h2 { font-size: 1.6rem; margin: 0 0 20px; }
   .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
@@ -140,7 +143,10 @@
   <section id="kontakt">
     <h2>Kontakt</h2>
     <p>Haben Sie ein Projekt im Kopf? Schreiben Sie mir kurz, worum es geht.</p>
-    <a class="btn" href="mailto:andreasgoldstein@posteo.de">andreasgoldstein@posteo.de</a>
+    <div class="actions">
+      <a class="btn" href="mailto:andreasgoldstein@posteo.de">andreasgoldstein@posteo.de</a>
+      <a class="btn ghost" href="schomsko.vcf" type="text/vcard">Kontakt speichern (.vcf)</a>
+    </div>
   </section>
 
   <footer>
